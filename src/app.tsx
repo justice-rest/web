@@ -147,7 +147,7 @@ export function App() {
     setSubmitError(null);
 
     try {
-      const GOOGLE_SCRIPT_URL = "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
+      const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxr5zZyNt_TnTIw49pwbQ8bdhhnkz63QhpCTJqj546J9uO_0kEWI11cko2Efk6yINBM/exec";
       await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
         body: JSON.stringify(payload),
